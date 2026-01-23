@@ -45,9 +45,9 @@ export default function Pricing() {
 
   return (
     <section className="relative py-24 px-4 overflow-hidden">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-balance neon-text-glow">Simple, Transparent Pricing</h2>
+          <h2 className="text-4xl md:text-5xl font-semibold text-balance neon-text-glow">Simple, Transparent Pricing</h2>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">Flexible plans that scale with your security needs</p>
         </div>
 
@@ -70,12 +70,12 @@ export default function Pricing() {
                 </div>
               )}
 
-              <h3 className="text-2xl font-bold text-foreground mb-2">{plan.name}</h3>
+              <h3 className="text-2xl font-semibold text-foreground mb-2">{plan.name}</h3>
               <p className="text-slate-400 text-sm mb-6">{plan.description}</p>
 
               {/* Price */}
               <div className="mb-6">
-                <span className="text-4xl font-bold text-primary">{plan.price}</span>
+                <span className="text-4xl font-semibold text-primary">{plan.price}</span>
                 {plan.period && <span className="text-slate-400 text-sm">{plan.period}</span>}
               </div>
 

@@ -5,7 +5,7 @@ import { Github, Twitter, Linkedin } from "lucide-react"
 export default function Footer() {
   return (
     <footer className="relative border-t border-slate-700/50 bg-slate-900/50 backdrop-blur-sm">
-      <div className="max-w-6xl mx-auto px-4 py-16">
+      <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
           {/* Product */}
           <div className="space-y-4">
@@ -148,13 +148,13 @@ export default function Footer() {
           {/* Logo/Brand */}
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-xs font-bold text-primary-foreground">CS</span>
+              <span className="text-xs font-semibold text-primary-foreground">CS</span>
             </div>
             <span className="font-semibold text-foreground">CyberShield</span>
           </div>
 
           {/* Copyright */}
-          <p className="text-sm text-slate-500">© 2025 CyberShield. All rights reserved.</p>
+          <p className="text-sm text-slate-500">© 2026 CyberShield. All rights reserved.</p>
 
           {/* Social Links */}
           <div className="flex items-center gap-4">

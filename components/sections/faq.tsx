@@ -38,7 +38,7 @@ export default function FAQ() {
     <section className="relative py-24 px-4 overflow-hidden">
       <div className="max-w-4xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-balance neon-text-glow">Common Questions</h2>
+          <h2 className="text-4xl md:text-5xl font-semibold text-balance neon-text-glow">Common Questions</h2>
           <p className="text-lg text-slate-400">Quick answers about CyberShield</p>
         </div>
 
@@ -50,7 +50,7 @@ export default function FAQ() {
               className="rounded-lg glassmorphism glow-border overflow-hidden"
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
             >
-              <button className="w-full p-6 flex items-center justify-between hover:bg-slate-700/20 transition">
+              <button className="w-full px-6 py-4 flex items-center justify-between hover:bg-slate-700/20 transition cursor-pointer">
                 <h3 className="text-lg font-semibold text-foreground text-left">{faq.question}</h3>
                 <ChevronDown
                   className={`w-5 h-5 text-primary flex-shrink-0 transition-transform ${
@@ -60,7 +60,7 @@ export default function FAQ() {
               </button>
 
               {openIndex === index && (
-                <div className="px-6 pb-6 border-t border-slate-700/50 text-slate-400">{faq.answer}</div>
+                <div className="px-6 pb-6 border-t border-slate-700/50 text-slate-400 pt-6">{faq.answer}</div>
               )}
             </div>
           ))}

@@ -57,7 +57,7 @@ export default function JoinNow() {
       </div>
 
       <div className="relative z-10 pt-32 pb-20">
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {step !== 4 && (
             <div className="text-center mb-16">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 neon-text-glow">

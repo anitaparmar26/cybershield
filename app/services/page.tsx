@@ -55,8 +55,8 @@ export default function Services() {
         {/* Hero */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
           <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 neon-text-glow">
-              OUR <span className="text-accent">SERVICES</span>
+            <h1 className="text-5xl md:text-6xl font-semibold mb-6 ">
+              Our <span className="text-accent">Services</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Comprehensive cybersecurity solutions designed to protect, detect, and respond to threats.
@@ -72,12 +72,12 @@ export default function Services() {
                   key={idx}
                   className="bg-card/50 border-2 border-primary/30 rounded-2xl p-8 hover:border-accent transition-all hover:shadow-lg group"
                 >
-                  <div className="flex items-start gap-4 mb-4">
-                    <div className="w-14 h-14 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center neon-glow-cyan flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="w-14 h-14 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                       <Icon className="w-7 h-7 text-background" />
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold text-foreground">{service.title}</h3>
+                      <h3 className="text-2xl font-semibold text-foreground">{service.title}</h3>
                     </div>
                   </div>
 
@@ -92,7 +92,7 @@ export default function Services() {
                     ))}
                   </div>
 
-                  <Button className="bg-gradient-to-r from-primary to-accent text-background font-bold uppercase rounded-full w-full hover:shadow-lg neon-glow">
+                  <Button className="bg-gradient-to-r from-primary to-accent text-background font-semibold  rounded-full w-full hover:shadow-lg ">
                     Learn More
                   </Button>
                 </div>
@@ -101,12 +101,12 @@ export default function Services() {
           </div>
 
           {/* CTA Section */}
-          <div className="mt-20 bg-gradient-to-r from-primary/10 to-accent/10 border-2 border-primary/30 rounded-2xl p-12 text-center neon-glow-cyan">
-            <h2 className="text-3xl font-bold mb-4">Ready to Secure Your Organization?</h2>
+          <div className="mt-20 bg-gradient-to-r from-primary/10 to-accent/10 border-2 border-primary/30 rounded-2xl p-12 text-center">
+            <h2 className="text-3xl font-semibold mb-4">Ready to Secure Your Organization?</h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Let's schedule a free security assessment to understand your unique needs.
             </p>
-            <Button className="bg-gradient-to-r from-primary to-accent text-background font-bold uppercase rounded-full px-8 neon-glow">
+            <Button className="bg-gradient-to-r from-primary to-accent text-background font-semibold  rounded-full px-8 ">
               Schedule Assessment
             </Button>
           </div>

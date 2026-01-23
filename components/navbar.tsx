@@ -10,10 +10,10 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navLinks = [
-    { label: "HOME", href: "/" },
-    { label: "ABOUT US", href: "/about" },
-    { label: "SERVICES", href: "/services" },
-    { label: "CONTACT", href: "/contact" },
+    { label: "Home", href: "/" },
+    { label: "About us", href: "/about" },
+    { label: "Services", href: "/services" },
+    { label: "Contact", href: "/contact" },
   ]
 
   return (
@@ -22,12 +22,12 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-accent to-primary flex items-center justify-center neon-glow-cyan transform group-hover:scale-110 transition-transform">
-              <Shield className="w-6 h-6 text-background" />
+             <div className="flex items-center gap-2">
+            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+              <span className="text-xs font-semibold text-primary-foreground">CS</span>
             </div>
-            <span className="font-bold text-foreground hidden sm:inline neon-text-glow">
-              PROFESSIONAL SECURITY
-            </span>
+            <span className="font-semibold text-foreground">CyberShield</span>
+          </div>
           </Link>
 
           {/* Navigation Menu */}
@@ -35,7 +35,7 @@ export default function Navbar() {
             <NavigationMenuList>
               {navLinks.map((link) => (
                 <NavigationMenuItem key={link.label}>
-                  <Link href={link.href} className="font-bold text-sm text-foreground hidden sm:inline neon-text-glow px-3 py-2  ">
+                  <Link href={link.href} className="font-normal text-lg text-foreground hidden sm:inline hover:text-primary px-3 py-2  ">
                     {link.label}
                   </Link>
                 </NavigationMenuItem>
@@ -50,7 +50,7 @@ export default function Navbar() {
               <input
                 type="text"
                 placeholder="SEARCH"
-                className="px-4 py-2 bg-background/50 border-2 border-accent rounded-full text-sm text-foreground placeholder-muted-foreground focus:outline-none focus:bg-background transition-all w-48 neon-glow-cyan"
+                className="px-4 py-2 bg-background/50 border-2 border-gray-600 rounded-full text-sm text-foreground placeholder-muted-foreground focus:outline-none focus:bg-background transition-all w-48 "
               />
               <Search className="absolute right-3 top-2.5 w-4 h-4 text-accent pointer-events-none" />
             </div>
@@ -59,7 +59,7 @@ export default function Navbar() {
             <Link href="/join">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-primary to-accent text-background font-bold uppercase rounded-full px-6 neon-glow hover:shadow-lg transform hover:scale-105 transition-all"
+                className="bg-gradient-to-r from-primary to-accent text-background font-semibold  rounded-full px-6  hover:shadow-lg transform hover:scale-105 transition-all"
               >
                 <Shield className="w-4 h-4" />
                 JOIN NOW
@@ -83,7 +83,7 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="block px-4 py-2 text-sm font-medium text-foreground uppercase hover:text-accent transition-colors rounded-lg hover:bg-primary/10"
+                className="block px-4 py-2 text-sm font-medium text-foreground  hover:text-accent transition-colors rounded-lg hover:bg-primary/10"
               >
                 {link.label}
               </Link>
@@ -97,7 +97,7 @@ export default function Navbar() {
               <Link href="/join" className="w-full">
                 <Button
                   size="sm"
-                  className="w-full bg-gradient-to-r from-primary to-accent text-background font-bold uppercase rounded-full"
+                  className="w-full bg-gradient-to-r from-primary to-accent text-background font-semibold uppercase rounded-full"
                 >
                   JOIN NOW
                 </Button>

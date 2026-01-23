@@ -23,9 +23,9 @@ export default function Problem() {
 
   return (
     <section className="relative py-24 px-4 overflow-hidden">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-balance neon-text-glow">The Threat Is Real</h2>
+          <h2 className="text-4xl md:text-5xl font-semibold text-balance neon-text-glow">The Threat Is Real</h2>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
             Your security team is overwhelmed. Your tools are outdated. Your defenses have gaps.
           </p>
@@ -41,7 +41,7 @@ export default function Problem() {
                 className="p-8 rounded-xl glassmorphism glow-border hover:border-accent  transition group"
               >
                 <Icon className="w-8 h-8 text-primary group-hover:text-accent transition mb-4" />
-                <h3 className="text-2xl font-bold text-foreground mb-2">{problem.stat}</h3>
+                <h3 className="text-2xl font-semibold text-foreground mb-2">{problem.stat}</h3>
                 <p className="text-slate-400">{problem.description}</p>
               </div>
             )

@@ -23,7 +23,7 @@ export default function Hero() {
             </div>
 
             <div className="space-y-6">
-              <h1 className="text-6xl lg:text-6xl font-bold text-balance leading-tight neon-text-glow">
+              <h1 className="text-6xl lg:text-6xl font-semibold text-balance leading-tight neon-text-glow">
                 <span className="text-primary">Cyber </span>
 
                 <span className="text-primary">Security Protect Your System</span>
@@ -38,14 +38,14 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button
                 size="lg"
-                className="bg-white text-black hover:bg-white/90 font-semibold rounded-full px-8 neon-glow"
+                className="bg-white text-black hover:bg-white/90 font-semibold rounded-full px-8 "
               >
                 JOIN US
               </Button>
               <Button
                 size="lg"
               
-                className="border-2 border-accent text-foreground hover:bg-accent/10 bg-transparent rounded-full px-8inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm disabled:pointer-events-none disabled:opacity-50  focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-primary/90 h-10 has-[>svg]:px-4 bg-gradient-to-r from-primary to-accent text-background font-bold uppercase rounded-full px-6 neon-glow hover:shadow-lg  cursor-pointer"
+                className="border-2 border-accent text-foreground hover:bg-accent/10 bg-transparent rounded-full px-8inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm disabled:pointer-events-none disabled:opacity-50  focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-primary/90 h-10 has-[>svg]:px-4 bg-gradient-to-r from-primary to-accent text-background font-semibold uppercase rounded-full px-6  hover:shadow-lg  cursor-pointer"
               >
                 LEARN MORE
               </Button>

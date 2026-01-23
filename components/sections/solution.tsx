@@ -28,9 +28,9 @@ export default function Solution() {
 
   return (
     <section className="relative py-24 px-4 overflow-hidden">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-balance neon-text-glow">
+          <h2 className="text-4xl md:text-5xl font-semibold text-balance neon-text-glow">
             One Platform. Complete Protection.
           </h2>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
@@ -45,7 +45,7 @@ export default function Solution() {
             return (
               <div key={index} className="bg-primary/10 p-8 rounded-xl glassmorphism border border-primary/20 hover:border-accent transition group">
                 <Icon className="w-10 h-10 text-primary group-hover:text-accent transition mb-4" />
-                <h3 className="text-xl font-bold text-foreground mb-2">{feature.title}</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-2">{feature.title}</h3>
                 <p className="text-slate-400">{feature.description}</p>
               </div>
             )

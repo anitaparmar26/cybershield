@@ -38,9 +38,9 @@ export default function Features() {
 
   return (
     <section className="relative py-24 px-4 overflow-hidden bg-primary/10">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-balance neon-text-glow">Core Features</h2>
+          <h2 className="text-4xl md:text-5xl font-semibold text-balance neon-text-glow">Core Features</h2>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
             Everything your security team needs in one unified platform
           </p>
@@ -53,7 +53,7 @@ export default function Features() {
             return (
               <div key={index} className="p-8 rounded-xl glassmorphism glow-border hover:border-accent transition group">
                 <Icon className="w-10 h-10 text-primary group-hover:text-accent transition mb-4" />
-                <h3 className="text-lg font-bold text-foreground mb-2">{feature.title}</h3>
+                <h3 className="text-lg font-semibold text-foreground mb-2">{feature.title}</h3>
                 <p className="text-slate-400 text-sm">{feature.description}</p>
               </div>
             )

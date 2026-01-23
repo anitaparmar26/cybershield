@@ -26,9 +26,9 @@ export default function Testimonials() {
 
   return (
     <section className="relative py-24 px-4 overflow-hidden">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-balance neon-text-glow">Trusted by Security Leaders</h2>
+          <h2 className="text-4xl md:text-5xl font-semibold text-balance neon-text-glow">Trusted by Security Leaders</h2>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
             See why enterprises choose CyberShield for their protection
           </p>
