@@ -35,7 +35,7 @@ export default function Navbar() {
             <NavigationMenuList>
               {navLinks.map((link) => (
                 <NavigationMenuItem key={link.label}>
-                  <Link href={link.href} className="font-normal text-lg text-foreground hidden sm:inline hover:text-primary px-3 py-2  ">
+                  <Link href={link.href} className="font-normal text-lg text-foreground hidden lg:inline hover:text-primary px-3 py-2  ">
                     {link.label}
                   </Link>
                 </NavigationMenuItem>
@@ -44,12 +44,12 @@ export default function Navbar() {
           </NavigationMenu>
 
           {/* Right Section: Search & CTA */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-4">
             {/* Search Input */}
             <div className="relative group">
               <input
                 type="text"
-                placeholder="SEARCH"
+                placeholder="Search"
                 className="px-4 py-2 bg-background/50 border-2 border-gray-600 rounded-full text-sm text-foreground placeholder-muted-foreground focus:outline-none focus:bg-background transition-all w-48 "
               />
               <Search className="absolute right-3 top-2.5 w-4 h-4 text-accent pointer-events-none" />
@@ -59,10 +59,10 @@ export default function Navbar() {
             <Link href="/join">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-primary to-accent text-background font-semibold  rounded-full px-6  hover:shadow-lg transform hover:scale-105 transition-all"
+                className="bg-gradient-to-r from-primary to-accent text-background font-semibold  rounded-full px-6  hover:shadow-lg  transition-all"
               >
                 <Shield className="w-4 h-4" />
-                JOIN NOW
+                Join Now
               </Button>
             </Link>
           </div>
@@ -70,7 +70,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-primary/10 transition-colors text-foreground"
+            className="lg:hidden p-2 rounded-lg hover:bg-primary/10 transition-colors text-foreground"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -78,7 +78,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden bg-card/50 backdrop-blur-md border-t border-primary/30 py-4 space-y-3">
+          <div className="lg:hidden bg-card/50 backdrop-blur-md border-t border-primary/30 py-4 space-y-3">
             {navLinks.map((link) => (
               <Link
                 key={link.label}
@@ -97,9 +97,9 @@ export default function Navbar() {
               <Link href="/join" className="w-full">
                 <Button
                   size="sm"
-                  className="w-full bg-gradient-to-r from-primary to-accent text-background font-semibold uppercase rounded-full"
+                  className="w-full bg-gradient-to-r from-primary to-accent text-background font-semibold  rounded-full"
                 >
-                  JOIN NOW
+                  Join Now
                 </Button>
               </Link>
             </div>

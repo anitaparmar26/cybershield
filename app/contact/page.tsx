@@ -58,8 +58,8 @@ export default function Contact() {
       <div className="relative z-10 pt-32 pb-20">
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 neon-text-glow">
-              GET IN <span className="text-accent">TOUCH</span>
+            <h1 className="text-5xl md:text-6xl font-semibold mb-6 neon-text-glow">
+              Get in <span className="text-accent">Touch</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Have questions? Our team is ready to help. Reach out to us anytime.
@@ -75,10 +75,10 @@ export default function Contact() {
                   href={info.link}
                   className="bg-card/50 border-2 border-primary/30 rounded-xl p-8 text-center hover:border-accent transition-colors group"
                 >
-                  <div className="w-16 h-16 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center neon-glow-cyan mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <div className="w-16 h-16 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                     <Icon className="w-8 h-8 text-background" />
                   </div>
-                  <h3 className="text-lg font-bold text-foreground mb-2">{info.label}</h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">{info.label}</h3>
                   <p className="text-accent hover:text-primary transition-colors">{info.value}</p>
                 </a>
               )
@@ -87,13 +87,13 @@ export default function Contact() {
 
           {/* Contact Form */}
           <div className="max-w-2xl mx-auto">
-            <div className="bg-card/50 border-2 border-primary/30 rounded-2xl p-8 neon-glow-cyan">
-              <h2 className="text-2xl font-bold mb-8 text-center">Send us a Message</h2>
+            <div className="bg-card/50 border-2 border-primary/30 rounded-2xl p-8">
+              <h2 className="text-2xl font-semibold mb-8 text-center">Send us a Message</h2>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                    <label htmlFor="name" className="block text-sm  text-foreground mb-2 ">
                       Full Name
                     </label>
                     <input
@@ -108,7 +108,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                    <label htmlFor="email" className="block text-sm  text-foreground mb-2 ">
                       Email Address
                     </label>
                     <input
@@ -125,7 +125,7 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="company" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                  <label htmlFor="company" className="block text-sm  text-foreground mb-2 ">
                     Company
                   </label>
                   <input
@@ -140,7 +140,7 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                  <label htmlFor="message" className="block text-sm  text-foreground mb-2 ">
                     Message
                   </label>
                   <textarea
@@ -157,7 +157,7 @@ export default function Contact() {
 
                 <Button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-primary to-accent text-background font-bold uppercase rounded-full py-3 neon-glow hover:shadow-lg"
+                  className="w-full bg-gradient-to-r from-primary to-accent text-background font-semibold  rounded-full py-3  hover:shadow-lg"
                 >
                   <Send className="w-4 h-4" />
                   Send Message

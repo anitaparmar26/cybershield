@@ -60,8 +60,8 @@ export default function JoinNow() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {step !== 4 && (
             <div className="text-center mb-16">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 neon-text-glow">
-                JOIN <span className="text-accent">CYBERSHIELD</span>
+              <h1 className="text-5xl md:text-6xl font-sbold mb-6 ">
+                Join <span className="text-accent">Cybersheild</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                 Get started with enterprise-grade security in minutes
@@ -72,8 +72,8 @@ export default function JoinNow() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Benefits Sidebar */}
             <div className="md:col-span-1">
-              <div className="bg-card/50 border-2 border-primary/30 rounded-2xl p-8 neon-glow-cyan sticky top-40">
-                <h3 className="text-xl font-bold text-foreground mb-6">What You Get</h3>
+              <div className="bg-card/50 border-2 border-primary/30 rounded-2xl p-8  sticky top-40">
+                <h3 className="text-xl font-sbold text-foreground mb-6">What You Get</h3>
                 <ul className="space-y-4">
                   {benefits.map((benefit, idx) => (
                     <li key={idx} className="flex items-start gap-3">
@@ -89,20 +89,20 @@ export default function JoinNow() {
             <div className="md:col-span-2">
               {step === 4 ? (
                 // Success Message
-                <div className="bg-card/50 border-2 border-accent rounded-2xl p-12 text-center neon-glow-cyan">
-                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center neon-glow-cyan mx-auto mb-6">
+                <div className="bg-card/50 border-2 border-accent rounded-2xl p-12 text-center ">
+                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center  mx-auto mb-6">
                     <Check className="w-10 h-10 text-background" />
                   </div>
-                  <h2 className="text-3xl font-bold text-accent mb-4">Welcome Aboard!</h2>
+                  <h2 className="text-3xl font-sbold text-accent mb-4">Welcome Aboard!</h2>
                   <p className="text-muted-foreground mb-8 text-lg">
                     Your account has been created successfully. Check your email to verify your account and start your free trial.
                   </p>
-                  <Button className="bg-gradient-to-r from-primary to-accent text-background font-bold uppercase rounded-full neon-glow">
+                  <Button className="bg-gradient-to-r from-primary to-accent text-background font-sbold  rounded-full ">
                     Go to Dashboard
                   </Button>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="bg-card/50 border-2 border-primary/30 rounded-2xl p-8 neon-glow-cyan">
+                <form onSubmit={handleSubmit} className="bg-card/50 border-2 border-primary/30 rounded-2xl p-8 ">
                   {/* Step Indicator */}
                   <div className="flex gap-2 mb-8">
                     {[1, 2, 3].map((s) => (
@@ -118,10 +118,10 @@ export default function JoinNow() {
                   {/* Step 1: Company Info */}
                   {step === 1 && (
                     <div className="space-y-6">
-                      <h2 className="text-2xl font-bold text-foreground mb-8">Company Information</h2>
+                      <h2 className="text-2xl font-sbold text-foreground mb-8">Company Information</h2>
                       
                       <div>
-                        <label htmlFor="company" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                        <label htmlFor="company" className="block text-sm  text-foreground mb-2 ">
                           Company Name
                         </label>
                         <input
@@ -137,7 +137,7 @@ export default function JoinNow() {
                       </div>
 
                       <div>
-                        <label htmlFor="industry" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                        <label htmlFor="industry" className="block text-sm  text-foreground mb-2 ">
                           Industry
                         </label>
                         <select
@@ -159,7 +159,7 @@ export default function JoinNow() {
                       </div>
 
                       <div>
-                        <label htmlFor="employees" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                        <label htmlFor="employees" className="block text-sm  text-foreground mb-2 ">
                           Company Size
                         </label>
                         <select
@@ -183,11 +183,11 @@ export default function JoinNow() {
                   {/* Step 2: Contact Info */}
                   {step === 2 && (
                     <div className="space-y-6">
-                      <h2 className="text-2xl font-bold text-foreground mb-8">Contact Information</h2>
+                      <h2 className="text-2xl font-sbold text-foreground mb-8">Contact Information</h2>
                       
                       <div className="grid md:grid-cols-2 gap-6">
                         <div>
-                          <label htmlFor="firstName" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                          <label htmlFor="firstName" className="block text-sm  text-foreground mb-2 ">
                             First Name
                           </label>
                           <input
@@ -202,7 +202,7 @@ export default function JoinNow() {
                           />
                         </div>
                         <div>
-                          <label htmlFor="lastName" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                          <label htmlFor="lastName" className="block text-sm  text-foreground mb-2 ">
                             Last Name
                           </label>
                           <input
@@ -219,7 +219,7 @@ export default function JoinNow() {
                       </div>
 
                       <div>
-                        <label htmlFor="email" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                        <label htmlFor="email" className="block text-sm  text-foreground mb-2 ">
                           Email Address
                         </label>
                         <input
@@ -235,7 +235,7 @@ export default function JoinNow() {
                       </div>
 
                       <div>
-                        <label htmlFor="phone" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                        <label htmlFor="phone" className="block text-sm  text-foreground mb-2 ">
                           Phone Number
                         </label>
                         <input
@@ -255,10 +255,10 @@ export default function JoinNow() {
                   {/* Step 3: Account Setup */}
                   {step === 3 && (
                     <div className="space-y-6">
-                      <h2 className="text-2xl font-bold text-foreground mb-8">Create Your Account</h2>
+                      <h2 className="text-2xl font-sbold text-foreground mb-8">Create Your Account</h2>
                       
                       <div>
-                        <label htmlFor="password" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                        <label htmlFor="password" className="block text-sm  text-foreground mb-2 ">
                           Password
                         </label>
                         <input
@@ -272,12 +272,12 @@ export default function JoinNow() {
                           placeholder="••••••••"
                         />
                         <p className="text-xs text-muted-foreground mt-2">
-                          Must be at least 8 characters with uppercase, lowercase, and numbers
+                          Must be at least 8 characters with , lowercase, and numbers
                         </p>
                       </div>
 
                       <div>
-                        <label htmlFor="confirmPassword" className="block text-sm font-bold text-foreground mb-2 uppercase">
+                        <label htmlFor="confirmPassword" className="block text-sm  text-foreground mb-2 ">
                           Confirm Password
                         </label>
                         <input
@@ -308,7 +308,7 @@ export default function JoinNow() {
                         type="button"
                         onClick={handleBack}
                         variant="outline"
-                        className="flex-1 uppercase font-bold bg-transparent"
+                        className="flex-1  font-sbold bg-transparent"
                       >
                         Back
                       </Button>
@@ -317,14 +317,14 @@ export default function JoinNow() {
                       <Button
                         type="button"
                         onClick={handleNext}
-                        className="flex-1 bg-gradient-to-r from-primary to-accent text-background font-bold uppercase rounded-full neon-glow"
+                        className="flex-1 bg-gradient-to-r from-primary to-accent text-background font-semibold  rounded-full "
                       >
                         Next <ArrowRight className="w-4 h-4" />
                       </Button>
                     ) : (
                       <Button
                         type="submit"
-                        className="flex-1 bg-gradient-to-r from-primary to-accent text-background font-bold uppercase rounded-full neon-glow"
+                        className="flex-1 bg-gradient-to-r from-primary to-accent text-background font-sbold  rounded-full "
                       >
                         Create Account
                       </Button>
@@ -333,7 +333,7 @@ export default function JoinNow() {
 
                   <p className="text-center text-sm text-muted-foreground mt-6">
                     Already have an account?{' '}
-                    <a href="#" className="text-accent hover:text-primary transition-colors font-bold">
+                    <a href="#" className="text-accent hover:text-primary transition-colors font-sbold">
                       Sign In
                     </a>
                   </p>
