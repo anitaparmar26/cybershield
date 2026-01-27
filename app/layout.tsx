@@ -14,19 +14,17 @@ export const metadata: Metadata = {
   description:
     "Detect, prevent, and respond to cyber threats in real-time with AI-powered security. SOC 2 • ISO 27001 • GDPR Ready",
  
-  icons: {
+   icons: {
     icon: [
       {
         url: "/favicon_io/favicon-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/favicon_io/favicon-32x32.png",
-        media: "(prefers-color-scheme: dark)",
+        type: "image/png",
+        sizes: "32x32",
       },
       {
         url: "/favicon_io/favicon-16x16.png",
-        type: "image/svg+xml",
+        type: "image/png",
+        sizes: "16x16",
       },
     ],
     apple: "/favicon_io/apple-touch-icon.png",
