@@ -17,17 +17,17 @@ export const metadata: Metadata = {
    icons: {
     icon: [
       {
-        url: "/favicon_io/favicon-32x32.png",
+        url: "/favicon-32x32.png",
         type: "image/png",
         sizes: "32x32",
       },
       {
-        url: "/favicon_io/favicon-16x16.png",
+        url: "/favicon-16x16.png",
         type: "image/png",
         sizes: "16x16",
       },
     ],
-    apple: "/favicon_io/apple-touch-icon.png",
+    apple: "/apple-touch-icon.png",
   },
 }
 
