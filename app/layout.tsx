@@ -13,23 +13,23 @@ export const metadata: Metadata = {
   title: "CyberShield - Enterprise-Grade Cybersecurity Platform",
   description:
     "Detect, prevent, and respond to cyber threats in real-time with AI-powered security. SOC 2 • ISO 27001 • GDPR Ready",
-  generator: "v0.app",
+ 
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/favicon_io/favicon-32x32.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/favicon_io/favicon-32x32.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "/favicon_io/favicon-16x16.png",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/favicon_io/apple-touch-icon.png",
   },
 }
 

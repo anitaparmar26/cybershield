@@ -17,7 +17,6 @@ export default function Home() {
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
         <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
       </div>
-
       <div className="relative z-10 pt-20">
         <Hero />
         <Problem />
@@ -29,8 +28,7 @@ export default function Home() {
         <FAQ />
         <FinalCTA />
         <Footer />
-       
-      </div>
+       </div>
     </main>
   )
 }
