@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
+
 import Navbar from "@/components/navbar"
 import DownloadButton from "@/components/sections/download"
 import "./globals.css"
@@ -40,7 +40,7 @@ export default function RootLayout({
         <Navbar />
         {children}
          <DownloadButton />
-        <Analytics />
+    
       </body>
     </html>
   )
