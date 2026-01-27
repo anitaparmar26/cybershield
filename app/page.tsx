@@ -9,6 +9,7 @@ import FAQ from "@/components/sections/faq"
 import FinalCTA from "@/components/sections/final-cta"
 import Footer from "@/components/sections/footer"
 
+
 export default function Home() {
   return (
     <main className="relative bg-background text-foreground overflow-hidden">
@@ -28,6 +29,7 @@ export default function Home() {
         <FAQ />
         <FinalCTA />
         <Footer />
+       
       </div>
     </main>
   )
