@@ -1,6 +1,6 @@
-# Professional Security - Cybersecurity SaaS Landing Page
+# Cybersecurity SaaS Landing Page
 
-A premium, futuristic cyberpunk-styled cybersecurity SaaS landing page built with Next.js 16, React 19, and TailwindCSS. Features neon glow effects, glassmorphism design, and an enterprise-grade user experience inspired by industry leaders like CrowdStrike and Palo Alto.
+A premium, futuristic cyberpunk-styled cybersecurity [SaaS Nextjs landing page](https://codescandy.com/template-categories/nextjs-templates/) built with Next.js 16, React 19, and [TailwindCSS](https://codescandy.com/template-categories/tailwind-css-templates/). Features neon glow effects, glassmorphism design, and an enterprise-grade user experience inspired by industry leaders like CrowdStrike and Palo Alto.
 
 ![Design Preview](https://img.shields.io/badge/Design-Cyberpunk%20Neon-FF00FF?style=flat-square) ![Next.js](https://img.shields.io/badge/Next.js-16.0-000000?style=flat-square) ![React](https://img.shields.io/badge/React-19.2-61DAFB?style=flat-square) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.1-06B6D4?style=flat-square)
 
@@ -412,7 +412,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 📞 Support
 
-For support, email us at support@professionalsecurity.com or visit our [Contact Page](/contact).
+For support visit our [Contact Page](https://codescandy.com/contact-us/).
 
 ---
 
@@ -424,7 +424,3 @@ For support, email us at support@professionalsecurity.com or visit our [Contact 
 - [shadcn/ui Components](https://ui.shadcn.com)
 - [Zod Documentation](https://zod.dev)
 
----
-
-**Last Updated**: January 2026  
-**Version**: 1.0.0
