@@ -45,7 +45,7 @@ A premium, futuristic cyberpunk-styled cybersecurity [SaaS Nextjs landing page](
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/anitaparmar26/cybershield.git>
    cd cyber-security-landing
    ```
 
